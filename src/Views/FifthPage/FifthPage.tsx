@@ -33,11 +33,11 @@ export default function FifthPage() {
                 />
               </div>
             </div>
-            <div className="w-270px">
-              <h2 className="items-start justify-start flex pl-[60px] pb-4 font-bold">
+            <div className="w-270px items-start justify-start text-start flex-start">
+              <h2 className=" flex pl-[50px] pb-4 font-bold ">
                 Hedge Investment
               </h2>
-              <p className="items-start justify-start flex pl-12 ">
+              <p className=" flex pl-12 ">
                 Ammo is in extremely high demand, if you can find it, and prices
                 typically act like traditional commodities with price
                 fluctuations depending on certain geo-political events. When
@@ -61,11 +61,11 @@ export default function FifthPage() {
                 />
               </div>
             </div>
-            <div className="w-270px">
-              <h2 className="items-start justify-start flex pl-[60px] pb-4 font-bold">
+            <div className="w-270px items-start justify-start text-start flex-start">
+              <h2 className="items-start justify-start flex pl-[50px] pb-4 font-bold">
                 Inflation resistant
               </h2>
-              <p className="items-start justify-start flex pl-12 ">
+              <p className="flex pl-12 ">
                 Ammo is a strong investment for rising prices and turbulent
                 times.
               </p>
@@ -87,11 +87,11 @@ export default function FifthPage() {
                 />
               </div>
             </div>
-            <div className="w-270px">
-              <h2 className="items-start justify-start flex pl-[60px] pb-4 font-bold">
+            <div className="w-270px  items-start justify-start text-start flex-start">
+              <h2 className="items-start justify-start flex pl-[50px] pb-4 font-bold">
                 Hard Asset
               </h2>
-              <p className="items-start justify-start flex pl-12  ">
+              <p className=" pl-12 ">
                 When you buy ammo on the USAE, it’s your ammo. You own it.
                 Unlike stocks on paper, this is a hard asset you own with a
                 year’s long shelf life for future trading or enjoyment.
@@ -114,11 +114,11 @@ export default function FifthPage() {
                 />
               </div>
             </div>
-            <div className="w-270px">
-              <h2 className="items-start justify-start flex pl-[60px] pb-4 font-bold">
+            <div className="w-270px items-start justify-start text-start flex-start">
+              <h2 className="items-start justify-start flex pl-[50px] pb-4 font-bold">
                 Portfolio Diversity
               </h2>
-              <p className="items-start justify-start flex pl-12 ">
+              <p className=" pl-12 ">
                 Beyond stocks, bonds, real estate and other investments, you can
                 now balance your wealth with bullets.
               </p>

@@ -4,9 +4,9 @@ export default {
     extend: {},
   },
   screens: {
-    s4: "375px",
+    s4: "350px",
 
-    s3: "350px",
+    s3: "375px",
 
     s2: "400px",
 
