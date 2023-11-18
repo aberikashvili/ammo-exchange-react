@@ -3,6 +3,7 @@ interface TCardInfo {
   subTitle: string;
   imageUrl: string;
   imageUrlBack: string;
+  borderClass: string;
 }
 
 export default function Card({
@@ -10,26 +11,29 @@ export default function Card({
   imageUrlBack,
   title,
   subTitle,
+  borderClass,
 }: TCardInfo) {
   return (
-    <div className="mx-auto md:w-80">
-      <div className="bg-white border border-gray-200 rounded-lg shadow">
-        <div className="flex flex-col items-center pb-10 mt-6">
-          <div className="relative flex items-center justify-center">
+    <div className="mx-auto md:w-80 max-lg:w-[300px] mb-4 ">
+      <div
+        className={`bg-transparent ${borderClass} border-gray-100 rounded-lg shadow`}
+      >
+        <div className="flex flex-col items-center pb-10 mt-6 ">
+          <div className="relative flex items-center justify-center mt-6">
             <img
-              className="w-24 h-24 mb-3 rounded-full shadow-lg"
+              className="w-[110px] h-[110px] mb-3 rounded-full shadow-lg"
               src={imageUrlBack}
               alt="Card Image"
             />
             <img
               src={imageUrl}
               alt="Ticket"
-              className="absolute top-12 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-10"
+              className="absolute top-14   left-1/2 transform -translate-x-1/2 -translate-y-1/2 "
             />
           </div>
-          <div className="px-6 text-center">
+          <div className="px-6 pb-6  text-center">
             <h5 className="text-2xl font-bold text-black pb-4">{title}</h5>
-            <p className="font-normal text-gray-700 dark:text-gray-400">
+            <p className="font-normal  text-gray-700 dark:text-gray-400">
               {subTitle}
             </p>
           </div>

@@ -18,7 +18,7 @@ function Nav(props: Props) {
           isOpen ? "bg-[#1E2A39] h-screen" : " "
         }`}
       >
-        <div className="w-[1440px]">
+        <div className="w-[1440px]  ">
           <nav className="p-5 shadow flex items-center justify-between ">
             <div className="hidden md:flex justify-end items-center"></div>
 
