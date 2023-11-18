@@ -19,7 +19,7 @@ export default function ThirdPage() {
           BECOME A FOUNDING TRADER
         </h1>
         <p className=" mt-2 text-lg text-gray-500 max-lg:pt-4 max-lg:pb-4  ">
-          Lorem ipsum dolor sit amet consectetur
+          Between now and July 1st, 2022
         </p>
       </div>
 
@@ -45,7 +45,7 @@ export default function ThirdPage() {
           </div>
         </div>
         <div className="justify-center items-center">
-          <div className="mb-28 max-lg:mb-0">
+          <div className="mb-28 max-lg:mb-0 max-lg:ml-2">
             <Card
               title="$ 10000 of Ammo"
               subTitle="The ammo is yours. Trade
@@ -56,7 +56,7 @@ $100-$1000 to fund account"
               borderClass="border"
             />
           </div>
-          <div className="max-lg:block hidden">
+          <div className="max-lg:block hidden max-lg:ml-2">
             <Card
               title="1,176 Founders"
               subTitle="Join hunters, veterans,
@@ -67,12 +67,14 @@ enterepreneurs, and more"
               borderClass="border"
             />
           </div>
-          <button
-            type="button"
-            className="text-white bg-[#2557D6] font-medium rounded-lg text-sm px-20 py-2.5 text-center inline-flex items-center mr-2 mb-2 max-lg:mt-6 "
-          >
-            Become a Founding Trade
-          </button>
+          <div className="max-lg:ml-4">
+            <button
+              type="button"
+              className="text-white bg-[#2557D6] font-medium rounded-lg text-sm px-20 py-2.5 text-center inline-flex items-center mr-2 mb-2 max-lg:mt-6 "
+            >
+              Become a Founding Trade
+            </button>
+          </div>
         </div>
         <div className="flex flex-col justify-center items-center max-lg:mr-8 ">
           <div className="max-lg:mb-0 max-2xl:ml-6 max-lg:hidden  ">

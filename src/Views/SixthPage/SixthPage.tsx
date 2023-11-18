@@ -11,8 +11,8 @@ import july1 from "../..//assets/images/JULY 1st.png";
 
 export default function SixthPage() {
   return (
-    <div className=" max-lg:pt-[1800px] flex justify-center flex-col items-center text-black h-screen w-screen bg-white">
-      <div className="mx-auto max-w-2xl p-4 mb-12 text-center">
+    <div className=" max-lg:pt-[1500px]  flex justify-center flex-col items-center text-black h-screen w-screen bg-gray-100">
+      <div className="mx-auto max-w-2xl p-4 mb-12 text-center max-lg:mt-[1000px]">
         <h1 className="font-bold tracking-tight text-5xl text-2xl text-black relative p-4  ">
           COUNTDOWN TO START OF TRADING
         </h1>

@@ -16,16 +16,16 @@ import bigPaper from "../../assets/images/File_Blank.png";
 
 export default function FifthPage() {
   return (
-    <div className="flex justify-center items-center  text-black  h-screen w-screen bg-white">
+    <div className="flex justify-center items-center   text-black h-screen w-screen bg-white">
       <GrayContainer>
-        <div className="max-lg:mt-[850px] w-full   h-[800px] 2xl:px-14 rounded-3xl 	  mx-auto p-4  text-center">
+        <div className="max-lg:mt-[850px] w-full   h-[800px] 2xl:px-14 rounded-3xl 	   mx-auto p-4  text-center">
           <div className="mx-auto 2xl:max-w-2xl 2xl:p-4 2xl:mt-6 text-center ">
             <h1 className=" font-bold tracking-tight text-5xl text-2xl pt-6 text-black relative p-4">
               WHY AMMO IS A GOOD INVESTMENT
             </h1>
           </div>
 
-          <div className="flex justify-between items-center w-full m-auto pb-12  bg-gray-100 ">
+          <div className="flex justify-between items-center w-full m-auto max-pb-12  bg-gray-100 ">
             <div className="max-lg:block hidden flex-col justify-center items-center mx-auto mt-8">
               <Card
                 title="Hedge Investment"
