@@ -7,7 +7,7 @@ function App() {
     <>
       <Routes>
         <Route element={<Layout />}>
-          <Route path="/" element={<WhyAmmoView />} />
+          <Route path="/WhyAmmoView" element={<WhyAmmoView />} />
         </Route>
       </Routes>
     </>
