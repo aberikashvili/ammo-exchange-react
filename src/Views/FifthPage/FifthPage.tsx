@@ -7,56 +7,60 @@ import trending from "../../assets/images/Trending_Up@2x.png";
 import paper from "../../assets/images/paper.png";
 import done from "../../assets/images/done.png";
 
-import Card from "../../components/Card/Card";
-
 import bigDone from "../../assets/images/Shield_Check@2x.png";
 import bigOctagon from "../../assets/images/Octagon_Check@3x.png";
 import bigTrending from "../../assets/images/Trending_Up@3x.png";
 import bigPaper from "../../assets/images/File_Blank.png";
 
+import AmmoCard from "../../components/AmmoCard/AmmoCard";
+
 export default function FifthPage() {
   return (
-    <div className="flex justify-center items-center   text-black h-screen w-screen bg-white">
+    <div className="flex justify-center  border-none items-center max-xl:pt-[300px]  max-lg:pt-[1000px]  text-black h-screen w-screen bg-white">
       <GrayContainer>
-        <div className="max-lg:mt-[850px] w-full   h-[800px] 2xl:px-14 rounded-3xl 	   mx-auto p-4  text-center">
+        <div className=" w-full   h-[800px] 2xl:px-14 rounded-3xl 	   mx-auto p-4  text-center">
           <div className="mx-auto 2xl:max-w-2xl 2xl:p-4 2xl:mt-6 text-center ">
-            <h1 className=" font-bold tracking-tight text-5xl text-2xl pt-6 text-black relative p-4">
+            <h1 className=" font-bold tracking-tight text-5xl text-2xl max-xl:pt-[100px] text-black relative p-4">
               WHY AMMO IS A GOOD INVESTMENT
             </h1>
           </div>
 
-          <div className="flex justify-between items-center w-full m-auto max-pb-12  bg-gray-100 ">
+          <div className="flex justify-between items-center w-full m-auto max-pb-12 max-2xl:pt-[40px]  bg-gray-100">
             <div className="max-lg:block hidden flex-col justify-center items-center mx-auto mt-8">
-              <Card
-                title="Hedge Investment"
-                subTitle="Ammo is in extremely high demand, if you can find it, and prices typically act like traditional commodities with price fluctuations depending on certain geo-political events. (insert ammo charts from the Pitch Deck). When some see price volatility others see investment opportunity.
+              <div className="mt-[43px]">
+                <AmmoCard
+                  title="Hedge Investment"
+                  subTitle="Ammo is in extremely high demand, if you can find it, and prices typically act like traditional commodities with price fluctuations depending on certain geo-political events. (insert ammo charts from the Pitch Deck). When some see price volatility others see investment opportunity.
 "
-                imageUrlBack={donebackground}
-                imageUrl={bigDone}
-                borderClass="border-b"
-              />
-              <Card
-                title="Hard Asset"
-                subTitle="When you buy ammo on the USAE, it’s your ammo. You own it. Unlike stocks on paper, this is a hard asset you own with a year’s long shelf life for future trading or enjoyment."
-                imageUrlBack={donebackground}
-                imageUrl={bigPaper}
-                borderClass="border-b"
-              />
-              <Card
-                title="Inflation resistant"
-                subTitle="Ammo is a strong investment for rising prices and turbulent times."
-                imageUrlBack={donebackground}
-                imageUrl={bigOctagon}
-                borderClass="border-b"
-              />
+                  imageUrlBack={donebackground}
+                  imageUrl={bigDone}
+                />
+              </div>
+              <div className="mt-[60px]">
+                <AmmoCard
+                  title="Hard Asset"
+                  subTitle="When you buy ammo on the USAE, it’s your ammo. You own it. Unlike stocks on paper, this is a hard asset you own with a year’s long shelf life for future trading or enjoyment."
+                  imageUrlBack={donebackground}
+                  imageUrl={bigPaper}
+                />
+              </div>
 
-              <Card
-                title="Portfolio Diversity"
-                subTitle="Ammo is a strong investment for rising prices and turbulent times."
-                imageUrlBack={donebackground}
-                imageUrl={bigTrending}
-                borderClass="border-b"
-              />
+              <div className="mt-[60px]">
+                <AmmoCard
+                  title="Inflation resistant"
+                  subTitle="Ammo is a strong investment for rising prices and turbulent times."
+                  imageUrlBack={donebackground}
+                  imageUrl={bigOctagon}
+                />
+              </div>
+              <div className="mt-[60px ">
+                <AmmoCard
+                  title="Portfolio Diversity"
+                  subTitle="Ammo is a strong investment for rising prices and turbulent times."
+                  imageUrlBack={donebackground}
+                  imageUrl={bigTrending}
+                />
+              </div>
             </div>
           </div>
 

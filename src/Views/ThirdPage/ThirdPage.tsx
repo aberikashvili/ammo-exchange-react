@@ -13,7 +13,7 @@ import Card from "../../components/Card/Card";
 
 export default function ThirdPage() {
   return (
-    <div className="flex justify-center flex-col items-center text-black h-screen w-screen bg-white ">
+    <div className="flex justify-center max-xl:pt-[200px] flex-col items-center text-black h-screen w-screen  border-none bg-white ">
       <div className="mx-auto max-w-2xl  p-4 mt-6  text-center max-lg:pt-[900px] ">
         <h1 className=" text-5xl text-2xl font-bold  pt-12">
           BECOME A FOUNDING TRADER

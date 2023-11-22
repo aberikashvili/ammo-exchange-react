@@ -3,7 +3,7 @@ import done from "../../assets/images/assets-06 1.png";
 
 export default function SecPage() {
   return (
-    <div className="flex justify-center items-center text-black h-screen w-screen bg-white">
+    <div className="flex justify-center items-center max-xl:pt-[150px] text-black h-screen w-screen border-none bg-white">
       <GrayContainer>
         <div className="mx-auto max-w-2xl p-4 mt-6 max-lg:mt-2 text-center">
           <div className="font-bold tracking-tight text-black relative p-4 ">
@@ -73,7 +73,7 @@ export default function SecPage() {
             </li>
           </div>
         </div>
-        <div className="max-lg:mt-[20px] max-md:mt-[20px] max-xl:mt-[90px] mt-[90px] max-md:mt-0   max-md:mr-[120px] ">
+        <div className="max-lg:mt-[20px]  max-xl:mt-[90px] mt-[90px] max-md:mt-0   max-md:mr-[120px] ">
           <button
             type="button"
             className="text-white  bg-[#2557D6] font-medium rounded-lg text-s4  px-[200px] mt-[35px] py-2.5 text-center inline-flex items-center mr-2 mb-2 ml-4"

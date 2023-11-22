@@ -4,9 +4,9 @@ import background from "../../assets/images/Group 43759.png";
 
 export default function FirstPage() {
   return (
-    <div className="flex justify-center w-full max-sm:w-[640px] max-md:w-[768px] max-lg:w-[1024px] max-xl:[1280px] items-center text-black h-screen relative">
+    <div className="flex justify-cente  h-[900px] max-lg:h-[830px] max-xl:h-[960px] max-2xl:w-[1279px] max-sm:w-[640px] h-[915px] max-md:w-[768px] max-lg:w-[1024px] max-xl:[1280px] items-center text-black h-screen relative">
       <img
-        className="absolute z-0 w-full  h-full max-sm:w-[640px] max-md:w-[768px] max-lg:w-[1024px] max-xl:[1280px] object-cover"
+        className="absolute z-0 w-full  h-full max-2xl:w-full max-sm:w-[640px] max-md:w-[768px] max-lg:w-[1024px] max-xl:[1280px] object-cover"
         src={background}
         alt="Background"
       ></img>

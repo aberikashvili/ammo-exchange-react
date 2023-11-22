@@ -10,7 +10,7 @@ export default function ForthPage() {
   const [img, setImg] = useState(1);
 
   return (
-    <div className="flex justify-center items-center max-lg:pt-[1360px]  text-black  h-screen w-screen bg-white">
+    <div className="flex justify-center items-center max-lg:pt-[1500px]   max-xl:pt-[300px] text-black  h-screen w-screen bg-white">
       <div className="w-[1536px] max-sm:w-[640px] max-md:w-[768px] max-lg:w-[1024px] max-xl:[1280px]  s4:w-[375] max-s1:w-[500px] max-s2:w-[400px] max-s3:w-[375px] max-s4:w-[350px]   h-[800px] px-14 rounded-3xl	 shadow bg-gray-100 mx-auto p-4  text-center ">
         <div className="w-full">
           <div className="  block mx-auto max-w-2xl p-4 mt-6  text-center max-lg:pt-[30px]">
@@ -25,7 +25,7 @@ export default function ForthPage() {
                 <ul>
                   <li
                     onClick={() => setImg(1)}
-                    className=" max-xl:mt-[400px] max-sm:ml-8 max-xl:ml-[330px] max-lg:mt-[730px] max-lg:w-[600px] max-lg:ml-[150px] max-md:ml-[70px] max-md:mt-[690px] max-md:w-[500px] block w-[480px] rounded-[10px] border-solid border-[1px] border-[gray] flex flex-col flex-start justify-start items-start text-start px-[25px] pt-4 pb-4 gap-[10px] relative"
+                    className=" max-xl:mt-[400px] max-sm:ml-8 max-xl:ml-[330px] max-lg:mt-[400px] max-lg:w-[600px] max-lg:ml-[160px] max-md:ml-[70px] max-md:mt-[390px] max-md:w-[500px] block w-[480px] rounded-[10px] border-solid border-[1px] border-[gray] flex flex-col flex-start justify-start items-start text-start px-[25px] pt-4 pb-4 gap-[10px] relative"
                   >
                     <h3 className="  text-[#3988F6] font-bold text-[18px] leading-[23.4px] tracking-[0.9px]">
                       Hadge Investment
@@ -92,7 +92,7 @@ export default function ForthPage() {
                 <img alt="" />
               </div>
             </section>
-            <div className="absolute right-12 top-[340%] max-xl:w-[550px] max-lg:w-[700px] max-xl:mr-[330px]  max-sm:ml-0 max-sm:mr-[70px] max-s1:ml-4 max-s1:mr-0  max-lg:mr-[120px]   max-lg:mt-[1000px]  block w-[730px]  max-md:mr-32 max-md:mt-[1050px] max-md:w-[600px] max-md:left-[90px] ">
+            <div className="absolute right-12 top-[332%] max-xl:w-[550px] max-lg:w-[500px] max-xl:mr-[330px]   max-sm:ml-0 max-sm:mr-[70px] max-s1:ml-4 max-s1:mr-0  max-lg:mr-[210px]   max-lg:mt-[950px]  block w-[730px]  max-md:mr-32 max-md:mt-[940px] max-md:w-[500px] max-md:left-[120px] max-xl:absolute max-xl:top-[345%] ">
               {img === 1 && <img src={macbook1}></img>}
               {img === 2 && <img src={macbook2}></img>}
               {img === 3 && <img src={macbook3}></img>}
